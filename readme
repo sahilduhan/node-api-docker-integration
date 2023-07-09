@@ -1,0 +1,12 @@
+1 create a Dockerfile
+
+2 run the command
+docker build -t docker-api .
+
+3 check wether the image is created or not
+docker image ls
+
+4 connect the api port with the local port
+docker run -p 3001:3000 (image name)
+
+5 check the container is running or not
